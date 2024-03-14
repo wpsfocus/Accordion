@@ -1,0 +1,54 @@
+.wrapper {
+    width: 100dvw;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion {
+    width: calc(100% - 30px);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.accordion .item {
+    background: whitesmoke;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    min-height: 70px;
+
+}
+
+.accordion .title {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem 0;
+    
+}
+
+.accordion .about {
+    height: auto;
+    color: black;
+    margin-top: 1rem;
+}
+
+.accordion button {
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.disabled {
+    color: black;
+}
+
+.enabled {
+    background: #614101;
+    color: white;
+}
